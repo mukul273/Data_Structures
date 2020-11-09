@@ -94,5 +94,28 @@ e.g: Generating all binary strings, N-Queen problem, Knapsack problem, Graph col
    k log 2 = log n  
    O( log n) = k  
    
-# ASymptotic notation
- 
+# Asymptotic notation  
+    1. Big O notation
+        - Upper bounding function
+            - f(n) = O(g(n)) where f(n) represents the large value of n
+             - O(g(n)) = f(n) for positive constants 'c' and 'n0' this means
+                    0<= f(n) <= cg(n) for all n >= n0
+            - g provides the upper bound (Upper bound = max time it takes to execute) and c is a constant which depends on
+                - Programming language,
+                - CPU Speed
+                - Memory size,
+                - Algorithm
+            - Always remember to write the Upper bound as Closest one
+            
+    2. Omega notation
+        - Lower bound function
+        - Means function will be executed in this min time  
+            - f(n) = Omega (g(n)) // n has larger values and g(n) reprresents the lower bound of f(n)
+            - 2\n<sup>2</sup> + n >= c2.g(n)
+    3. Theta notation
+        - It is also called as Order function
+        - decides if teh upper and lower bouds are same
+            - n(g(n)) = Positive constants c1, c2 and n0 such that
+            O<=  c1g(n) <= f(n) <= c2g(n) for all n<= n0
+            
+        

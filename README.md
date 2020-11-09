@@ -114,7 +114,7 @@ e.g: Generating all binary strings, N-Queen problem, Knapsack problem, Graph col
             - 2\n<sup>2</sup> + n >= c2.g(n)
     3. Theta notation
         - It is also called as Order function
-        - decides if teh upper and lower bouds are same
+        - decides if the upper and lower bouds are same
             - n(g(n)) = Positive constants c1, c2 and n0 such that
             O<=  c1g(n) <= f(n) <= c2g(n) for all n<= n0
             
